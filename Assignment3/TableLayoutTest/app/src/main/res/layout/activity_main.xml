@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etVer"
+        android:hint="Enter Android Version"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCodeName"
+        android:hint="Enter Android Code Name"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/btnAdd"/>
+    <TableLayout
+        android:id="@+id/tbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="*"
+        >
+<!--        Todo: remove in production-->
+<!--        <TableRow android:layout_marginBottom="5dp">-->
+<!--            <TextView android:background="@drawable/border"-->
+<!--                android:text="Hello"-->
+<!--               />-->
+<!--            <TextView android:background="@drawable/border"-->
+<!--                android:text="Hello"-->
+<!--                />-->
+<!--        </TableRow>-->
+<!--        <TableRow android:layout_marginBottom="5dp" >-->
+<!--            <TextView android:background="@drawable/border"-->
+<!--                android:text="Hello"-->
+<!--                />-->
+<!--            <TextView android:background="@drawable/border"-->
+<!--                android:text="Hello"-->
+<!--                />-->
+<!--        </TableRow>-->
+    </TableLayout>
+
+</LinearLayout>
