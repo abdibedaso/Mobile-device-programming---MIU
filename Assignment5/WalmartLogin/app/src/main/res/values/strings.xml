@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WalmartLogin</string>
+
+    <string name="login_email">Email address(required)</string>
+    <string name="login_password">Password(required)</string>
+    <string name="login_email_hint">example@domain.com</string>
+    <string name="login_password_hint">*******</string>
+    <string name="login_btn">Sign In</string>
+    <string name="login_don_t_have_an_account_yet">Don\'t have an account?</string>
+    <string name="login_link_sign_up">Create a new account</string>
+    <string name="login_forgot_your_password">Forgot your password?</string>
+
+
+    <string name="activity_login_auto_hint_email">Email</string>
+    <string name="activity_login_auto_hint_password">Password</string>
+    <string name="dialog_base_url_auto_hint_url">Url</string>
+
+
+    <string name="activity_language_content_description_back_button">Back Button</string>
+    <string name="activity_language_content_description_amharic">Amharic</string>
+    <string name="activity_language_content_description_english">English</string>
+    <string name="activity_login_content_description_logo">Logo</string>
+    <string name="activity_settings_content_description_back_button">Back Button</string>
+    <string name="activity_splash_content_description_logo">Logo</string>
+    <string name="fragment_no_internet_content_description_no_internet">No Internet Connection Image</string>
+    <string name="item_application_content_description_continue_button">Continue Button</string>
+    <string name="layout_no_internet_content_description_logo">Logo</string>
+    <string name="login_title">Sign in to your account</string>
+    <string name="divider">divider</string>
+    <string name="electronics">Electronics</string>
+    <string name="clothes">Clothes</string>
+    <string name="beauty">Beauty</string>
+    <string name="food">Food</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="first_name">First name*</string>
+    <string name="last_name">Last name*</string>
+    <string name="password">Password*</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_address">Email address*</string>
+    <string name="color_color">Color: color</string>
+    <string name="walmart_number_1231">Walmart Number: 1231</string>
+    <string name="item_description_nasdfad">Item Description:\nasdfad</string>
+</resources>

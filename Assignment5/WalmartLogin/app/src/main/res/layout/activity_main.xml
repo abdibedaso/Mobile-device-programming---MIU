@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    tools:ignore="UselessParent"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/walmart_logo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/login_title"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="22dp">
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/horizontal_20"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/login_email"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="@string/activity_login_auto_hint_email"
+                android:background="@drawable/input_bg_curved_grey"
+                android:cursorVisible="true"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center|start|bottom"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/vertical_margin_8"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/vertical_margin_8"
+                android:textColor="@color/black_effective"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/login_password"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="@string/activity_login_auto_hint_password"
+                android:background="@drawable/input_bg_curved_grey"
+                android:cursorVisible="true"
+                android:gravity="center|start|bottom"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/vertical_margin_8"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/vertical_margin_8"
+                android:textColor="@color/black_effective"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/btn_forgot_your_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:autoLink="all"
+                android:clickable="true"
+                android:onClick="onForgetPasswordClick"
+                android:fontFamily="sans-serif-light"
+                android:padding="2dp"
+                android:text="@string/login_forgot_your_password"
+                android:textAlignment="textEnd"
+                android:textSize="14sp"
+                android:focusable="true" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_bg_curved_stroke"
+                android:text="@string/login_btn"
+                android:onClick="onSign"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/divider"
+                    android:src="@color/mater_grey_300" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="2dp"
+                    android:text="@string/login_don_t_have_an_account_yet"
+                    android:textAlignment="center"
+                    android:textColor="@color/mater_grey_700"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/divider"
+                    android:src="@color/mater_grey_300" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="46dp">
+                <ImageView
+                    android:contentDescription="@string/login_link_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_signup_bg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:onClick="onSignUp"
+                    android:text="@string/login_link_sign_up"
+                    android:textAllCaps="false"
+                    android:textColor="@color/purple_500"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

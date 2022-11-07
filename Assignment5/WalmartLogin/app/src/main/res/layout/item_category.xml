@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginEnd="@dimen/horizontal_margin_8"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="22dp">
+        <LinearLayout
+            android:id="@+id/item_container"
+            android:padding="5dp"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="true">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/rv_image"
+                android:contentDescription="@string/electronics"
+                android:scaleType="fitCenter"
+                android:layout_width="70dp"
+                android:layout_height="80dp"/>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="@dimen/horizontal_margin_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/rv_title"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Samsung Electronics Galaxy Tab S7 FE 2021 Android Tablet 12.4” Screen WiFi 256GB S Pen Included Long-Lasting Battery Powerful Performance, Mystic Black"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/rv_price"
+                    android:layout_marginTop="4dp"
+                    android:text="Price: $35"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/rv_color"
+                    android:layout_marginTop="4dp"
+                    android:text="Color: Black"
+                    android:fontFamily="sans-serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

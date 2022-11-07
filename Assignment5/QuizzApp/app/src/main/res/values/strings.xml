@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="_1_questions_list">1. Kotlin Strings are mutable</string>
+    <string name="_2_questions_list">2. Kotlin data types are object type</string>
+    <string name="true_answer">True</string>
+    <string name="false_answer">False</string>
+    <string name="i_am_not_sure">I am not sure</string>
+    <string name="btn_reset">reset</string>
+</resources>
