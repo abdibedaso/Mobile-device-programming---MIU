@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="28dp"
+android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/person"
+            android:layout_gravity="top">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvPosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ItemText1"
+                android:textColor="#2F2F32"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:autoLink="web"/>
+            <TextView
+                android:id="@+id/tvCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ItemText2"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/tvDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ItemText2"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ItemText2"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ItemText2"
+        android:textColor="#2F2F32"
+        android:textSize="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DFDEDE"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

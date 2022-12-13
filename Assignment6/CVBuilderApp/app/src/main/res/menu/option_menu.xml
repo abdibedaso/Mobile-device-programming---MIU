@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/call"
+        android:title="Call"
+        android:icon="@drawable/call_tran"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/linkedin"
+        android:title="LinkedIn"
+        android:icon="@drawable/linkedin_tran"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/email"
+        android:title="Email"
+        android:icon="@drawable/email_tran"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/whatsapp"
+        android:title="Whatsapp"
+        android:icon="@drawable/watsapp_tran"
+        app:showAsAction="ifRoom"/>
+
+</menu>

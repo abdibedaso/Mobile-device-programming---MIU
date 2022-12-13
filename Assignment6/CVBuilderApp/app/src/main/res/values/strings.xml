@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CV</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Home -->
+    <string name="name">Abdi Tufa Bedaso</string>
+    <string name="position">Web Developer</string>
+    <!-- Home Card View -->
+    <array name="homeTitle">
+        <item>Career</item>
+        <item>Work Experience</item>
+    </array>
+    <array name="homeDesc">
+        <item>&lt;strong&gt;Completed&lt;/strong&gt; on-campus studies and currently taking distance
+            education courses to complete a Master\'s Degree in Computer Science (Available for
+            full-time, W-2 employment).
+        </item>
+        <item>&lt;b&gt;Languages:&lt;/b&gt; JavaScript, Java, VB.NET &lt;br /&gt; &lt;b&gt;Web:&lt;/b&gt;
+            HTML, CSS, jQuery, Bootstrap, Express.js, React, Redux&lt;br /&gt; &lt;b&gt;Web
+            Services:&lt;/b&gt; REST, AWS &lt;br /&gt; &lt;b&gt;Web and Application Servers:&lt;/b&gt;
+            IIS &lt;br /&gt; &lt;b&gt;Frameworks:&lt;/b&gt; ASP.NET, Spring Boot, Hibernate &lt;br /&gt;
+            &lt;b&gt;Databases:&lt;/b&gt; MS SQL, MySQL &lt;br /&gt; &lt;b&gt;Design Patterns:&lt;/b&gt;
+            Singleton &lt;br /&gt;&lt;b&gt;SDLC:&lt;/b&gt; Waterfall, Agile/ Scrum &lt;br /&gt; &lt;b&gt;Tools:&lt;/b&gt;
+            Git, VS Code, Visual Studio 2019, StarUML, Postman, Docker, Google Analytics, Adobe
+            Photoshop, SortSite (Web Interface Standard Checker), Sublime Text, Visual Source Safe
+            &lt;br /&gt; &lt;b&gt;Platforms:&lt;/b&gt; Windows
+        </item>
+    </array>
+    <!-- About -->
+    <string name="abtTitle">About Me</string>
+    <string name="abtDesc">Strategic Full Stack Developer with more than 5 years of hands-on experience developing high-quality solutions that meet client requirement specifications and improve functionality. Proven experience in identifying and debugging issues to maximize performance and reduce customer-impacting issues.  </string>
+    <string name="eduTitle">Education</string>
+    <string name="eduMaster2Title">Maharishi International University</string>
+    <string name="eduMaster2Desc">Master of Science in Computer Science</string>
+    <string name="eduBachelorTitle">DDU</string>
+    <string name="eduBachelorDesc">Bachelor of Science in Computer Science</string>
+    <string name="certTitle">Certification</string>
+    <string name="cert1"> Web Development with Java Spring Framework</string>
+    <!-- Contact -->
+    <string name="ctTitle">Contact Me</string>
+    <string name="ctPhoneLabel">Mobile</string>
+    <string name="ctPhone">+1(480) 765 3300</string>
+    <string name="ctEmailLabel">Email</string>
+    <string name="ctEmail">atbedaso@gmail.com</string>
+    <string name="ctLinkedInLabel">LinkedIn Website</string>
+    <string name="ctLinkedIn">https://www.linkedin.com/in/abdibedaso</string>
+    <string name="ctGitLabel">GitHub</string>
+    <string name="ctGit">https://github.com/abdibedaso</string>
+    <string name="ctResumeLabel">PDF</string>
+    <string name="ctResume">Download Resume</string>
+    <!-- Work Experience -->
+    <string name="weTitle">Work Experience</string>
+</resources>
