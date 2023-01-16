@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#dbe9c5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp">
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/android_main_banner" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Android Quiz"
+                android:textColor="#000000"
+                android:textSize="33sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/tv_title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Android Quiz App. Test your android development knowledge by taking the quizz. Have fun and Enjoy!!!"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                android:gravity="center_horizontal"
+                android:lineHeight="28dp"/>
+            <Button
+                android:id="@+id/btn_singleplayer"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginTop="38dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:backgroundTint="#4CAF50"
+                android:text="Start"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/black2"
+                android:textSize="25sp"
+                app:strokeColor="#eeeeee"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

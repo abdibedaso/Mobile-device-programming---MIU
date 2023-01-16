@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Android is licensed under which open source licensing license?",
+    "answers": [
+      "Gnu’s GPL",
+      "Apache/MIT",
+      "OSS",
+      "Sourceforge"
+    ],
+    "correct": 1,
+    "id": 1,
+    "image": ""
+  },
+  {
+    "question": "Which among these are NOT a part of Android’s native libraries?",
+    "answers": [
+      "Webkit",
+      "Dalvik",
+      "OpenGL",
+      "SQLite"
+    ],
+    "correct": 1,
+    "id": 2,
+    "image": ""
+  },
+  {
+    "question": "Android is based on Linux for the following reason?",
+    "answers": [
+      "Security",
+      "Portability",
+      "Networking",
+      "All of these"
+    ],
+    "correct": 3,
+    "id": 3,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FAndroidOfficial%2F&psig=AOvVaw0SVWNL5qL5XnfnGOFO1Q4b&ust=1652135627865000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjC2vz60PcCFQAAAAAdAAAAABAX"
+  },
+  {
+    "question": "What operating system is used as the base of the Android stack?",
+    "answers": [
+      "Linux",
+      "Windows",
+      "Java",
+      "XML"
+    ],
+    "correct": 0,
+    "id": 4,
+    "image": ""
+  },
+  {
+    "question": "What does the .apk extension stand for?",
+    "answers": [
+      "Application Package",
+      "Application Program Kit",
+      "Android Proprietary Kit",
+      "Android Package"
+    ],
+    "correct": 0,
+    "id": 5,
+    "image": ""
+  },
+  {
+    "question": "What is contained within the manifest xml file?",
+    "answers": [
+      "The permissions the app requires",
+      "The list of strings used in the app",
+      "The source code",
+      "All other choices"
+    ],
+    "correct": 0,
+    "id": 6,
+    "image": ""
+  },
+  {
+    "question": "What is contained within the Layout xml file?",
+    "answers": [
+      "Orientations and layouts that specify what the display looks like.",
+      "The permissions required by the app.",
+      "The strings used in the app.",
+      "The code which is compiled to run the app."
+    ],
+    "correct": 0,
+    "id": 7,
+    "image": ""
+  },
+  {
+    "question": "The emulated device for android.",
+    "answers": [
+      "Runs the same code base as the actual device, all the way down to the machine layer.",
+      "Is more of a simulator, and acts as a virtual machine for the Android device.",
+      "Runs the same code base as the actual device, however at a higher level.",
+      "An imaginary machine built on the hopes and dreams of baby elephants."
+    ],
+    "correct": 0,
+    "id": 8,
+    "image": ""
+  },
+  {
+    "question": "The R file is a(an) generated file",
+    "answers": [
+      "Automatically",
+      "Manually",
+      "Emulated",
+      "None of the above"
+    ],
+    "correct": 0,
+    "id": 9,
+    "image": ""
+  },
+  {
+    "question": "To create an emulator, you need an AVD. What does it stand for?",
+    "answers": [
+      "Android Virtual Display",
+      "Android Virtual Device",
+      "Active Virtual Device",
+      "Application Virtual Display"
+    ],
+    "correct": 1,
+    "id": 10,
+    "image": ""
+  },
+  {
+    "question": "The ___________ file specifies the layout of your screen.",
+    "answers": [
+      "Layout file",
+      "Manifest file",
+      "Strings XML",
+      "R file"
+    ],
+    "correct": 0,
+    "id": 11,
+    "image": ""
+  },
+  {
+    "question": "To create an emulator, you need an AVD. What does it stand for?",
+    "answers": [
+      "Android Virtual Display",
+      "Android Virtual Device",
+      "Active Virtual Device",
+      "Application Virtual Display"
+    ],
+    "correct": 1,
+    "id": 12,
+    "image": ""
+  },
+  {
+    "question": "The emulated device for android.",
+    "answers": [
+      "Runs the same code base as the actual device, all the way down to the machine layer.",
+      "Is more of a simulator, and acts as a virtual machine for the Android device.",
+      "Runs the same code base as the actual device, however at a higher level.",
+      "An imaginary machine built on the hopes and dreams of baby elephants."
+    ],
+    "correct": 0,
+    "id": 13,
+    "image": ""
+  },
+  {
+    "question": "What is contained within the manifest xml file?",
+    "answers": [
+      "The permissions the app requires",
+      "The list of strings used in the app",
+      "The source code",
+      "All other choices"
+    ],
+    "correct": 0,
+    "id": 14,
+    "image": ""
+  },
+  {
+    "question": "Android is based on Linux for the following reason?",
+    "answers": [
+      "Security",
+      "Portability",
+      "Networking",
+      "All of these"
+    ],
+    "correct": 3,
+    "id": 15,
+    "image": ""
+  }
+]

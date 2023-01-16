@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/circle_outlined.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/circle_solid.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/gradient_auth_bg.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_gk.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_history.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_incorrect.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_loser.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_movie.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_music.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_random.xml" value="0.1715" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.291213768115942" />
+        <entry key="app/src/main/res/layout/analysis_fragment.xml" value="0.14427083333333332" />
+        <entry key="app/src/main/res/layout/analysis_item_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/auth_fragment.xml" value="0.21693840579710144" />
+        <entry key="app/src/main/res/layout/category_page_fragment.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/custom_alert_dialog.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/history_fragment.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/history_item_layout.xml" value="0.276268115942029" />
+        <entry key="app/src/main/res/layout/history_layout.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/loading_layout.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/match_making_fragment.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/multiplayer_result_fragment.xml" value="0.26811594202898553" />
+        <entry key="app/src/main/res/layout/play_fragment.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/play_layout.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/question_multi_layout.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/question_single_layout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/result_fragment.xml" value="0.17391304347826086" />
+        <entry key="app/src/main/res/layout/single_category_layout.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/single_history_layout_mp.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/single_history_layout_sp.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/single_player_fragment.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/single_player_result_fragment.xml" value="0.18659420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbe9c5"
+    tools:context=".ui.result.ResultFragment">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:id="@+id/tv_matchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Congratulations!!!"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/iv_matchIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/android_winner"
+        />
+    <TextView
+        android:id="@+id/tv_subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        tools:text="Your Android Quizz Score"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@null"
+            android:checkable="false"
+            android:text="0 correct"
+            app:chipIcon="@drawable/ic_correct"
+            app:chipIconSize="16dp"
+            app:chipSurfaceColor="#FFEB3B"
+            app:iconStartPadding="4dp"
+            android:layout_marginRight="3dp"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_opponent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 incorrect"
+            app:chipIcon="@drawable/ic_incorrect"
+            app:chipIconSize="12dp"
+            app:chipSurfaceColor="#FFEB3B"
+            app:iconStartPadding="4dp"
+            />
+    </LinearLayout>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_total"
+        android:layout_width="196dp"
+        android:layout_height="62dp"
+        android:text="Your score : 0 / 15 "
+        app:chipIcon="@drawable/ic_computer"
+        app:chipIconSize="12dp"
+        app:chipSurfaceColor="#FFEB3B"
+        app:iconStartPadding="4dp"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/btn_analysis"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid_rounded"
+        android:backgroundTint="@color/lightBlue"
+        android:text="Result Analysis"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:textColor="@color/lightGray2"
+
+        />
+    <Button
+        android:id="@+id/btn_goHome"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid_rounded"
+        android:backgroundTint="#4CAF50"
+        android:text="Try Again"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textColorHighlight="@color/black2"
+        app:strokeColor="@color/white" />
+
+</LinearLayout>
+</ScrollView>

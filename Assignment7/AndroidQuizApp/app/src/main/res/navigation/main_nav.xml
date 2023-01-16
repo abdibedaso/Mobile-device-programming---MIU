@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment"
+    >
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="androidquiz.app.ui.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_home_screen_to_history_screen"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_home_screen_to_quizz_screen"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="androidquiz.app.ui.play.PlayFragment"
+        android:label="single_player_fragment"
+        tools:layout="@layout/play_fragment" >
+        <action
+            android:id="@+id/action_play_screen_to_result_screen"
+            app:destination="@id/resultFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="categoryName"
+            app:argType="string"
+            android:defaultValue="all" />
+        <action
+            android:id="@+id/action_play_screen_to_home_screen"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="androidquiz.app.ui.history.HistoryFragment"
+        android:label="history_fragment"
+        tools:layout="@layout/history_fragment" >
+
+        <action
+            android:id="@+id/action_history_screen_to_home_screen"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="androidquiz.app.ui.result.ResultFragment"
+        android:label="single_player_result_fragment"
+        tools:layout="@layout/result_fragment" >
+        <action
+            android:id="@+id/action_result_screen_to_home_screen"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_result_screen_to_history_screen"
+            app:destination="@id/historyFragment" />
+
+        <action
+            android:id="@+id/action_result_screen_to_analysis_screen"
+            app:destination="@id/analysisFragment" />
+
+        <argument
+            android:name="correctAnswers"
+            app:argType="integer"
+            />
+        <argument
+            android:name="categoryName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analysisFragment"
+        android:name="androidquiz.app.ui.analysis.AnalysisFragment"
+        android:label="single_player_result_fragment"
+        tools:layout="@layout/analysis_fragment" >
+        <action
+            android:id="@+id/action_analysis_screen_to_home_screen"
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
